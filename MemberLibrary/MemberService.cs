@@ -2,9 +2,9 @@
 
 namespace MemberLibrary
 {
-    public class MemberService
+    public static class MemberService
     {
-        public bool IsMember(string account)
+        public static bool IsMember(string account)
         {
             return account == "Sam";
         }

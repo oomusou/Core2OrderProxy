@@ -1,8 +1,8 @@
 ﻿namespace OrderLibrary
 {
-    public class OrderService : PriceInterface
+    public static class OrderService
     {
-        public double GetPrice(double discount, double price)
+        public static double GetPrice(double discount, double price)
         {
             return discount * price;
         }
